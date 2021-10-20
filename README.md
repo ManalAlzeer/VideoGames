@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/ManalAlzeer/videoGames/images/logo.png">
-    <img src="images/logo.png" alt="Logo" width="100" height="80">
+    <img src="images/logo.png" alt="Logo" width="200" height="100">
   </a>
 
 <h3 align="center">Video Games</h3>
@@ -23,15 +23,7 @@
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -42,9 +34,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Video Game website][product-screenshot]](https://github.com/ManalAlzeer/videoGames/images/logo.png)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email`, `email_client`, `project_title`, `project_description`
+![alt text](https://github.com/ManalAlzeer/VideoGames/blob/master/images/screenshot.png?raw=true)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -64,7 +54,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is Live Website : ""
+This is Live Website : https://manalalzeer.github.io/VideoGames/
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
