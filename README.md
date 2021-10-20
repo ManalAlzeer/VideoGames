@@ -26,19 +26,10 @@ The Free-To-Play Games Database API (Aka FreeToGame API) is available for everyo
 [Free To Game API](https://www.freetogame.com/api-doc)
 
 
-### Built With
-
-* [HTML](https://html.com/)
-* [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
-* [JavaScript](https://www.javascript.com/)
-* [Free To Game API](https://www.freetogame.com/api-doc)
-
-
 ## Contact
 
 Manal Alzeer - [ManalAlzeer](https://www.linkedin.com/in/manalalzeer) - ManalAlzeer01@gmail.com
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 ## Acknowledgments
@@ -47,4 +38,3 @@ Manal Alzeer - [ManalAlzeer](https://www.linkedin.com/in/manalalzeer) - ManalAlz
 * [RapidAPI Hub](https://rapidapi.com/hub)
 * [w3schools](w3schools.com/)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
