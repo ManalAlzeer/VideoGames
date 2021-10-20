@@ -42,7 +42,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Video Game website](https://github.com/ManalAlzeer/videoGames/images/screenshot.png)
+![alt text](https://github.com/ManalAlzeer/VideoGames/blob/master/images/screenshot.png?raw=true)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
