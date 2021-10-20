@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Games</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+    <div class="header">
+        <div>
+            <a href="/index.html" class="logo">Video Games</a>
+        </div>
+        <div class="search">
+            <i class="fa fa-search"></i>
+            <input type="text" placeholder="Searching by Games title " id="search">
+        </div>
+        <div>
+            <button id="joinUs">Join Us</button>
+        </div>
+        <div class="mobilelist">
+            <a class="icon">
+                <i class="fa fa-bars"></i></a>
+        </div>
+
+    </div>
+
+    <div class="wallpaper">
+        <img src="/images/header.jpg" width="100%" alt="">
+    </div>
+
+    <div id="myLinks">
+        <div class="form-1"> 
+            <h3 >Platform</h3> 
+            <label><input style="width: auto;" type="radio" name="Platform" value="PC" /> PC </label>
+            <label><input style="width: auto;" type="radio" name="Platform" value="Browser" />Browser</label> 
+        </div>
+        <div class="form-2">
+            <h3>Genre</h3> 
+            <label><input type="radio" name="Genre" value="MMO">MMO</label> 
+            <label><input type="radio" name="Genre" value="MMORPG">MMORPG</label> 
+            <label><input type="radio" name="Genre" value="Shooter">Shooter</label>
+            <label><input type="radio" name="Genre" value="Strategy">Strategy</label>
+            <label><input type="radio" name="Genre" value="Moba">Moba</label>
+            <label><input type="radio" name="Genre" value="Battle Royale">Battle Royale</label> 
+            <label><input type="radio" name="Genre" value="Card">Card</label> 
+            <label><input type="radio" name="Genre" value="Racing">Racing</label>
+            <label><input type="radio" name="Genre" value="Sports">Sports</label> 
+            <label><input type="radio" name="Genre" value="Social">Social</label> 
+            <label><input type="radio" name="Genre" value="Fighting">Fighting</label>
+        </div>
+        <div style="margin-top: 2%;">
+            <button id="joinUs">Join Us</button>
+            <button id="sort" style="width: 90px">filtering</button>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="filter">
+            <button id="sort">filtering</button>
+            <div class="form-1"> 
+                <div>
+                    <h3 id="bord">Platform</h3> 
+                    <label><input style="width: auto;" type="radio" name="Platform" value="PC" /> PC </label>
+                    <label><input style="width: auto;" type="radio" name="Platform" value="Browser" />Browser</label> 
+                </div>
+            </div>
+
+            <div class="form-2">
+                <h3 id="bord">Genre</h3> 
+                <label><input type="radio" name="Genre" value="MMO">MMO</label> 
+                <label><input type="radio" name="Genre" value="MMORPG">MMORPG</label> 
+                <label><input type="radio" name="Genre" value="Shooter">Shooter</label>
+                <label><input type="radio" name="Genre" value="Strategy">Strategy</label>
+                <label><input type="radio" name="Genre" value="Moba">Moba</label>
+                <label><input type="radio" name="Genre" value="Battle Royale">Battle Royale</label> 
+                <label><input type="radio" name="Genre" value="Card">Card</label> 
+                <label><input type="radio" name="Genre" value="Racing">Racing</label>
+                <label><input type="radio" name="Genre" value="Sports">Sports</label> 
+                <label><input type="radio" name="Genre" value="Social">Social</label> 
+                <label><input type="radio" name="Genre" value="Fighting">Fighting</label>
+            </div>
+        </div>
+
+
+        <div class="parent">
+            <div class="cards">
+                <!-- Js -->
+            </div>
+            <div class="cardsSearsh">
+                <!-- Js -->
+            </div>
+            <div class="cardsFilter">
+                <!-- Js -->
+            </div>
+        </div>
+
+
+        <!-- card popUp Modal  -->
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="card-info">
+                <!-- Js  -->
+            </div>
+          </div>
+        </div>
+
+        <!-- join Us modal -->
+        <!-- <div id="myModal2" class="modal">
+            <div class="joinus-content">
+                <span class="close2">&times;</span>
+                <div class="user-info">
+                </div>
+            </div>
+        </div> -->
+
+        
+
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
