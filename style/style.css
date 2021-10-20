@@ -516,7 +516,8 @@ label {
             justify-content: center;
         }
         .wallpaper{
-            margin-top: 9%;
+            margin-top: 20%;
+            height: 240px;
         }
         .modal-content {
             padding: 10px;
@@ -527,7 +528,7 @@ label {
             width: 280px;
         }
         .search{
-            height: 10px;
+            height: 15px;
             text-align: left;
         }
         .search .fa{
