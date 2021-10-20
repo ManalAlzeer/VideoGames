@@ -12,7 +12,7 @@ fetch("https://free-to-play-games-database.p.rapidapi.com/api/games", {
     const result = json
 
     // display cards
-    for (let i = 0; i < 12; i++) {
+    for (let i = 0; i < result.length; i++) {
         dataArray.push(result[i])
 
         const jsontitle = result[i].title;
@@ -198,7 +198,7 @@ filter.forEach(function(elem) {
 
         hiden3.innerHTML=" ";
         for (let i = 0; i < dataArray.length; i++) {
-            if((dataArray[i].platform.startsWith(selectedPlatform)) && (dataArray[i].genre === selectedGenre)){
+            if((dataArray[i].platform.startsWith(selectedPlatform)) && (dataArray[i].genre.startsWith(selectedGenre))){
                 hiden.style.display = "none";
                 hiden2.style.display = "none";
                 console.log(dataArray[i].platform + " -  " + dataArray[i].title + "   " + dataArray[i].genre);
