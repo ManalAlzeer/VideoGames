@@ -58,7 +58,7 @@ srch.addEventListener("change" ,function() {
         console.log(x);
         hiden2.innerHTML=""
         for (let i = 0; i < dataArray.length; i++) {
-            if(x === dataArray[i].title){
+            if(dataArray[i].title.startsWith(x)){
                 hiden.style.display = "none";
                 hiden2.style.display = "";
                 
